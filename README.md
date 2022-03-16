@@ -61,3 +61,6 @@ In Blade template (latest-posts.blade.php):
         }
     }
 </style>
+<style scoped lang="scss">
+    @module('LatestPosts')
+</style>
