@@ -4,9 +4,10 @@
 ```
 composer require jey/livewire-styleable
 ```
-
+___
 **Using:**
 
+Component class:
 ```phpt
 <?php
 
@@ -34,6 +35,7 @@ class LatestPosts extends Component
 
 ```
 
+Blade template
 ```
 <div>
     <div class="row">
