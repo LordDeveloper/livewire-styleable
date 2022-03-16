@@ -35,7 +35,7 @@ class LatestPosts extends Component
 
 ```
 
-In Blade template:
+In Blade template (latest-posts.blade.php):
 ```
 <div>
     <div class="row">
