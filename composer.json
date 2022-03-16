@@ -1,0 +1,23 @@
+{
+    "name": "jey/livewire-styleable",
+    "description": "A package for defining scoped styles in Livewire components (Scss support)",
+    "type": "package",
+    "require": {
+        "scssphp/scssphp": "^1.10",
+        "ext-xml": "*",
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jey\\LivewireStyleable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jey\\LivewireStyleable\\Providers\\LivewireStyleableServiceProvider"
+            ]
+        }
+    }
+}
