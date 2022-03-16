@@ -61,6 +61,9 @@ In Blade template (latest-posts.blade.php):
         }
     }
 </style>
+```
+Module import support (Non-Webpack packages)
+```
 <style scoped lang="scss">
     @module('LatestPosts')
 </style>
