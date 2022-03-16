@@ -7,7 +7,7 @@ composer require jey/livewire-styleable
 ___
 **Using:**
 
-Component class:
+In Component class:
 ```phpt
 <?php
 
@@ -35,7 +35,7 @@ class LatestPosts extends Component
 
 ```
 
-Blade template
+In Blade template:
 ```
 <div>
     <div class="row">
